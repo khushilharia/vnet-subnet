@@ -9,8 +9,8 @@ variables:
   bicepFile: 'vnet.bicep'
 
 stages:
-  - stage: Create Azure VNET
-    displayName: 'Create VNET'
+  - stage: CreateAzureVNET
+    displayName: 'CreateVNET'
     jobs:
       - deployment: CreateVNET
         environment: 'dev'
